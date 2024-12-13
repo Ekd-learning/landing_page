@@ -1,1 +1,1 @@
-# landing_page
+Making my first landing page from a scratch using basic html & css
