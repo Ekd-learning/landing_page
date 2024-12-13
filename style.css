@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header, .hero, .footer {
+    background-color: #1F2937;
+    font-family: "Roboto", serif;
+}
+.header-logo{
+    color: #F9FAF8;
+    size: 24px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.hero-description{
+    flex: 1;
+}
+.hero .image-holder{
+    background-color: grey;
+    padding: 50px;
+    flex: 2 1 0;
+    margin-left: 100px;
+}
+.hero-secondary-text, .image-holder, a, ul{
+    text-decoration: none;
+    color: #E5E7EB;
+    size: 18px;
+}
+.hero-main-text{
+    color:#F9FAF8;
+    font-weight: 900;
+    size: 48px;
+}
+button, .action-container{
+    background-color: #3882F6; 
+    color: #E5E7EB;
+}
+button{
+    border-radius: 8px;
+    border-style: solid;
+}
+#hero-signup{
+    border-color: #1F2937;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+.quote-author{
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 800;
+    size: 36px;
+    font-family: "light italic", serif;
+    color: #1F2937;
+}
+.action-container{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
+#action-signup{
+    border-color: #E5E7EB;
+}
+.footer{
+    color: #E5E7EB;
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1F2937;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info-image{
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding: 0px;
+}
+.info-main-text{
+    font-weight: 900;
+    size: 36px;
+}
+.info-images-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.info-images, .info-img-description{
+    max-width:105px;
+    max-height:200px;
+}
+
+
+
